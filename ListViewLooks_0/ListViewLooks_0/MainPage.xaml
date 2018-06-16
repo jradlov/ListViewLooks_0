@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ListViewLooks_0"
+             x:Class="ListViewLooks_0.MainPage">
+
+    <StackLayout>
+        <!-- ListView x:Name="myListView" SeparatorColor="Peru"/ -->
+
+        <!--StackLayout VerticalOptions="FillAndExpand">
+            <ListView x:Name="myListView" />
+        </StackLayout-->
+
+        <!--ListView x:Name="myListView"  HeightRequest="300" HasUnevenRows="True" /-->
+
+        <!-- FontSize: Micro:10 Small:14 Default:14 Medium:18 Large:22 -->
+        <ListView x:Name="myListView" RowHeight="25" ItemSelected="myListView_ItemSelected"/>
+        <Button Image="play48.png" VerticalOptions="Center" HorizontalOptions="Center"  HeightRequest="50"/>
+        <ListView x:Name="myListView2" RowHeight="25" />
+
+    </StackLayout>
+
+
+</ContentPage>
